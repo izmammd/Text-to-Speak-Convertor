@@ -65,24 +65,7 @@ export default function SpeechTotext() {
         </div>
 
 
-        {/* <h1 className="text-center text-white fw-bold display-5 my-3">Text to Speech Convertor</h1>
 
-            <div className="row">
-                <div className="col-md-6 align-items-center m-auto">
-                    <textarea className="mb-4" rows="8" cols="60" value={input} onChange={(e) => setInput(e.target.value)} placeholder="Enter Text......"></textarea>
-
-                    <select className="form-select mb-4"
-                        onChange={(e) => setSelectedvoices(voices[e.target.value])}>
-                        {
-                            voices.map((voice, i) => (
-                                <option className="" key={i} value={i}>{voice.name} {voice.lang}</option>
-                            ))
-                        }
-                    </select>
-
-                    <button className="btn btn-danger mb-4" onClick={speak}>Speak</button>
-                </div>
-            </div> */}
 
     </>)
 }
